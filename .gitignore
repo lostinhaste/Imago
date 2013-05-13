@@ -110,3 +110,4 @@ UpgradeLog*.XML
 Imago.userprefs
 
 Imago/App_Data/settings.config
+Imago/App_Data/Media/Upload/*
