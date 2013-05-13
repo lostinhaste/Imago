@@ -108,3 +108,5 @@ Backup*/
 UpgradeLog*.XML
 
 Imago.userprefs
+
+Imago/App_Data/settings.config
