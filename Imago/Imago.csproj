@@ -78,6 +78,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bean\Constants.cs" />
     <Compile Include="Utilities\Logger.cs" />
   </ItemGroup>
   <PropertyGroup>
