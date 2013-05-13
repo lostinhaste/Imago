@@ -52,6 +52,7 @@
       <HintPath>..\packages\NMemory.1.0.0-beta7\lib\net40\NMemory.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Transactions" />
     <Reference Include="System.Web" />
@@ -71,6 +72,7 @@
       <SubType>Designer</SubType>
     </Content>
     <None Include="Scripts\jquery-2.0.0.intellisense.js" />
+    <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-2.0.0.js" />
     <Content Include="Scripts\jquery-2.0.0.min.js" />
     <Content Include="web.config" />
@@ -85,6 +87,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bean\Constants.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
     <Compile Include="Utilities\Logger.cs" />
   </ItemGroup>
   <ItemGroup>
